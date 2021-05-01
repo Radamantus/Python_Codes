@@ -28,4 +28,4 @@ for i, mensagem in enumerate(contatos_df['Mensagem']):
     time.sleep(10) #  Espera 10 segundos
 
 navegador.quit() #  Fechar o navegador
-print(f'Mensagens enviadas no WhatsApp para {i} contatos.') #  Imprime para o usuário
+print(f'Mensagens enviadas no WhatsApp para {i+1} contatos.') #  Imprime para o usuário
