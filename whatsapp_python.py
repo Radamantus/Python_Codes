@@ -23,7 +23,7 @@ for i, mensagem in enumerate(contatos_df['Mensagem']):
     link = f"https://web.whatsapp.com/send?phone={numero}&text={texto}" #  Link para cada conversa
     navegador.get(link)
     while len(navegador.find_elements_by_id("side")) < 1:
-        time.sleep(2) #  Espera 10 segundos
+        time.sleep(2) #  Espera 2 segundos
     navegador.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER) # Envia a mensagem
     time.sleep(10) #  Espera 10 segundos
 
