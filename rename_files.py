@@ -10,7 +10,7 @@ i = 1
 for filename in os.listdir(folder):
     file_name, file_extension = os.path.splitext(filename)
     os.rename(os.path.join(folder, filename), os.path.join(folder, newname + str(i) + file_extension))
-    i = i + 1
+    i += 1
 
 print('Todos os arquivos na pasta selecionada forma renomeados com sucesso.')
 
