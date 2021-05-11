@@ -7,6 +7,7 @@ import time
 # pyautogui.KEYBOARD_KEYS
 
 # Mensagem de alerta ao usuário
+pyautogui.confirm("Clique OK para confirmar.")
 pyautogui.alert("Entrando em modo remoto. Não utilizar o computador.")
 pyautogui.PAUSE = 2.0
 
