@@ -5,7 +5,6 @@ arquivo = open('with_arquivo.txt', 'w')
 arquivo.write('Oi, tudo bem?')
 arquivo.close()
 
-
 # Com with
 with open('with_arquivo.txt', 'w') as arquivo:
     arquivo.write("Qual o papo de hoje? \n\nO mesmo de sempre.")
