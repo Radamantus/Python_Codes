@@ -85,3 +85,10 @@ print(lista) # ['a', 'b', 'c']
 # sorted
 lista = ["c", "b", "f", "a"]
 print(sorted(lista))
+
+# copy
+lista = ["a", "e", "i", "o", "u"]
+outra_lista = lista.copy()
+lista.append("aeiou")
+print(outra_lista)
+print(lista)
