@@ -1,3 +1,3 @@
 # Python_Codes
-Arquivos exmeplos utilizados para consulta. <br>
+Arquivos exemplos utilizados para consulta. <br>
 Example files used to query.
